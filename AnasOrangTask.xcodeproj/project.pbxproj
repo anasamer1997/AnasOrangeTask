@@ -11,6 +11,8 @@
 		04778C1A2A92876900913E8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04778C192A92876900913E8A /* ContentView.swift */; };
 		04778C1C2A92876B00913E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04778C1B2A92876B00913E8A /* Assets.xcassets */; };
 		04778C1F2A92876B00913E8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04778C1E2A92876B00913E8A /* Preview Assets.xcassets */; };
+		04778C272A9288D700913E8A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 04778C262A9288D700913E8A /* RealmSwift */; };
+		04778C2A2A9288E700913E8A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 04778C292A9288E700913E8A /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04778C2A2A9288E700913E8A /* SDWebImageSwiftUI in Frameworks */,
+				04778C272A9288D700913E8A /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,10 @@
 			dependencies = (
 			);
 			name = AnasOrangTask;
+			packageProductDependencies = (
+				04778C262A9288D700913E8A /* RealmSwift */,
+				04778C292A9288E700913E8A /* SDWebImageSwiftUI */,
+			);
 			productName = AnasOrangTask;
 			productReference = 04778C142A92876900913E8A /* AnasOrangTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,10 @@
 				Base,
 			);
 			mainGroup = 04778C0B2A92876900913E8A;
+			packageReferences = (
+				04778C252A9288D700913E8A /* XCRemoteSwiftPackageReference "realm-swift" */,
+				04778C282A9288E700913E8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 04778C152A92876900913E8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +351,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04778C252A9288D700913E8A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		04778C282A9288E700913E8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04778C262A9288D700913E8A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04778C252A9288D700913E8A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		04778C292A9288E700913E8A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04778C282A9288E700913E8A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04778C0C2A92876900913E8A /* Project object */;
 }
