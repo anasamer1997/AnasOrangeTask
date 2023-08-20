@@ -7,19 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04438CF42A9293830098F706 /* RealmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438CF12A9293830098F706 /* RealmDB.swift */; };
+		04438CF52A9293830098F706 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438CF22A9293830098F706 /* NetworkHelper.swift */; };
+		04438CF62A9293830098F706 /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438CF32A9293830098F706 /* network.swift */; };
+		04438CFC2A9293E70098F706 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438CFB2A9293E70098F706 /* Theme.swift */; };
+		04438D032A9294210098F706 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438CFE2A9294210098F706 /* SettingsView.swift */; };
+		04438D042A9294210098F706 /* ArticalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438CFF2A9294210098F706 /* ArticalDetails.swift */; };
+		04438D052A9294210098F706 /* ArticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438D002A9294210098F706 /* ArticalView.swift */; };
+		04438D062A9294210098F706 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438D012A9294210098F706 /* WebView.swift */; };
+		04438D072A9294210098F706 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438D022A9294210098F706 /* HomeScreen.swift */; };
+		04438D0B2A9294600098F706 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438D092A9294600098F706 /* NewsResponse.swift */; };
+		04438D0C2A9294600098F706 /* NewsRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438D0A2A9294600098F706 /* NewsRealm.swift */; };
+		04438D0F2A92948E0098F706 /* news_intent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04438D0E2A92948E0098F706 /* news_intent.swift */; };
+		04438D122A9295B80098F706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04438D112A9295B80098F706 /* Assets.xcassets */; };
 		04778C182A92876900913E8A /* AnasOrangTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04778C172A92876900913E8A /* AnasOrangTaskApp.swift */; };
 		04778C1A2A92876900913E8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04778C192A92876900913E8A /* ContentView.swift */; };
-		04778C1C2A92876B00913E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04778C1B2A92876B00913E8A /* Assets.xcassets */; };
 		04778C1F2A92876B00913E8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04778C1E2A92876B00913E8A /* Preview Assets.xcassets */; };
 		04778C272A9288D700913E8A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 04778C262A9288D700913E8A /* RealmSwift */; };
 		04778C2A2A9288E700913E8A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 04778C292A9288E700913E8A /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04438CF12A9293830098F706 /* RealmDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDB.swift; sourceTree = "<group>"; };
+		04438CF22A9293830098F706 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		04438CF32A9293830098F706 /* network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
+		04438CFB2A9293E70098F706 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		04438CFE2A9294210098F706 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		04438CFF2A9294210098F706 /* ArticalDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticalDetails.swift; sourceTree = "<group>"; };
+		04438D002A9294210098F706 /* ArticalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticalView.swift; sourceTree = "<group>"; };
+		04438D012A9294210098F706 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		04438D022A9294210098F706 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		04438D092A9294600098F706 /* NewsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		04438D0A2A9294600098F706 /* NewsRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsRealm.swift; sourceTree = "<group>"; };
+		04438D0E2A92948E0098F706 /* news_intent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = news_intent.swift; sourceTree = "<group>"; };
+		04438D102A9295050098F706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04438D112A9295B80098F706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../AnasNewsTask/AnasNewsTask/Assets.xcassets; sourceTree = "<group>"; };
 		04778C142A92876900913E8A /* AnasOrangTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnasOrangTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04778C172A92876900913E8A /* AnasOrangTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasOrangTaskApp.swift; sourceTree = "<group>"; };
 		04778C192A92876900913E8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		04778C1B2A92876B00913E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04778C1E2A92876B00913E8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,6 +61,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04438CF02A9293830098F706 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				04438CF12A9293830098F706 /* RealmDB.swift */,
+				04438CF22A9293830098F706 /* NetworkHelper.swift */,
+				04438CF32A9293830098F706 /* network.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		04438CFA2A9293E70098F706 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				04438CFB2A9293E70098F706 /* Theme.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		04438CFD2A9294210098F706 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04438CFE2A9294210098F706 /* SettingsView.swift */,
+				04438CFF2A9294210098F706 /* ArticalDetails.swift */,
+				04438D002A9294210098F706 /* ArticalView.swift */,
+				04438D012A9294210098F706 /* WebView.swift */,
+				04438D022A9294210098F706 /* HomeScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04438D082A9294600098F706 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04438D092A9294600098F706 /* NewsResponse.swift */,
+				04438D0A2A9294600098F706 /* NewsRealm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04438D0D2A92948E0098F706 /* intents */ = {
+			isa = PBXGroup;
+			children = (
+				04438D0E2A92948E0098F706 /* news_intent.swift */,
+			);
+			path = intents;
+			sourceTree = "<group>";
+		};
 		04778C0B2A92876900913E8A = {
 			isa = PBXGroup;
 			children = (
@@ -55,9 +127,15 @@
 		04778C162A92876900913E8A /* AnasOrangTask */ = {
 			isa = PBXGroup;
 			children = (
+				04438D102A9295050098F706 /* Info.plist */,
+				04438D0D2A92948E0098F706 /* intents */,
+				04438D082A9294600098F706 /* Model */,
+				04438CFD2A9294210098F706 /* View */,
+				04438CFA2A9293E70098F706 /* Enum */,
+				04438CF02A9293830098F706 /* service */,
 				04778C172A92876900913E8A /* AnasOrangTaskApp.swift */,
 				04778C192A92876900913E8A /* ContentView.swift */,
-				04778C1B2A92876B00913E8A /* Assets.xcassets */,
+				04438D112A9295B80098F706 /* Assets.xcassets */,
 				04778C1D2A92876B00913E8A /* Preview Content */,
 			);
 			path = AnasOrangTask;
@@ -138,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04778C1F2A92876B00913E8A /* Preview Assets.xcassets in Resources */,
-				04778C1C2A92876B00913E8A /* Assets.xcassets in Resources */,
+				04438D122A9295B80098F706 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +227,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04438D032A9294210098F706 /* SettingsView.swift in Sources */,
+				04438D0C2A9294600098F706 /* NewsRealm.swift in Sources */,
+				04438D062A9294210098F706 /* WebView.swift in Sources */,
+				04438CF52A9293830098F706 /* NetworkHelper.swift in Sources */,
 				04778C1A2A92876900913E8A /* ContentView.swift in Sources */,
+				04438D072A9294210098F706 /* HomeScreen.swift in Sources */,
+				04438D0B2A9294600098F706 /* NewsResponse.swift in Sources */,
+				04438CF62A9293830098F706 /* network.swift in Sources */,
+				04438CFC2A9293E70098F706 /* Theme.swift in Sources */,
+				04438D042A9294210098F706 /* ArticalDetails.swift in Sources */,
+				04438D052A9294210098F706 /* ArticalView.swift in Sources */,
+				04438CF42A9293830098F706 /* RealmDB.swift in Sources */,
+				04438D0F2A92948E0098F706 /* news_intent.swift in Sources */,
 				04778C182A92876900913E8A /* AnasOrangTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +372,7 @@
 				DEVELOPMENT_TEAM = P5NTR89GQN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnasOrangTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +402,7 @@
 				DEVELOPMENT_TEAM = P5NTR89GQN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnasOrangTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
