@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("darkModeEnabled") private var darkModeEnabled = false
+    @AppStorage("systemThemeEnabled") private var systemThemeEnabled = false
+    
+    private let themeManager = ThemeManager()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView{
+            HomeScreen()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+            SettingsView(darkModeEnabled: $darkModeEnabled,
+                         systemThemeEnabled: $systemThemeEnabled,
+                         themeManager: themeManager)
+            .tabItem {
+                Image(systemName: "gearshape")
+                Text("Settings")
+            }
         }
-        .padding()
     }
 }
 
